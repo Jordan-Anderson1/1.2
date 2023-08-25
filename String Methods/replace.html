@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Replace Method</title>
+</head>
+<body>
+    <h1>String Replace Method</h1>
+
+    <p>Replace Harvard with Deakin in the text below</p>
+
+    <button onclick="changeText()">Change Text</button>
+
+    <p id="text">Harvard is a great school</p>
+</body>
+
+
+<script>
+    function changeText() {
+        let text = document.getElementById("text").innerHTML;
+        document.getElementById("text").innerHTML = text.replace("Harvard", "Deakin");
+        
+    }
+</script>
+</html>

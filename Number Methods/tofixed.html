@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToFixed</title>
+</head>
+<body>
+
+    <h1>toFixed</h1>
+    <p>This method rounds a decimal</p>
+
+    <p id="pi"></p>
+
+
+    <button onclick="Round2()">Round pi to 2 decimals</button>
+
+    <button onclick="Round3()">Round pi to 3 decimals</button>
+
+    <button onclick="Round4()">Round pi to 4 decimals</button>
+
+    
+    
+</body>
+
+<script>
+    function Round2(){
+        let x = 3.1415926535;
+        document.getElementById("pi").innerHTML = x.toFixed(2);
+    }
+
+    function Round3(){
+        let x = 3.1415926535;
+        document.getElementById("pi").innerHTML = x.toFixed(3);
+    }
+
+    function Round4(){
+        let x = 3.1415926535;
+        document.getElementById("pi").innerHTML = x.toFixed(4);
+    }
+
+
+
+
+</script>
+
+
+</html>

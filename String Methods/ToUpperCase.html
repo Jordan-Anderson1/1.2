@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToUpperCase</title>
+</head>
+
+<body>
+    <h1>To Uppercase</h1>
+    <p id="demo">Let's make this uppercase</p>
+
+    <button onclick="convert()">Convert</button>
+    
+</body>
+
+<script>
+    function convert(){
+        let text = document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML = text.toUpperCase();
+    }
+</script>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates</title>
+</head>
+<body>
+    <h1>dates</h1>
+    
+
+    <p id="1"></p>
+
+    <p id="dateString"></p>
+
+    <p id="yearmonth"></p>
+
+    <p id="prevcentury"></p>
+
+    <p id="simple"></p>
+</body>
+
+
+<script>
+    document.getElementById("1").innerHTML = new Date();
+
+    document.getElementById("dateString").innerHTML = new Date("08-25-23");
+
+    document.getElementById("yearmonth").innerHTML = new Date(2023, 10, 17, 45, 17, 2);
+
+    document.getElementById("prevcentury").innerHTML = new Date(95, 8, 6);
+
+    document.getElementById("simple").innerHTML = new Date(2023, 8);
+
+
+
+</script>
+</html>

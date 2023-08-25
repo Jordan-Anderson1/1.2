@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Lowercase</title>
+</head>
+<body>
+    <h1>To Lowercase</h1>
+
+    <p id="demo">THIS IS AN UPPERCASE SENTENCE!!!</p>
+
+    <button onclick="Convert()">Stop yelling</button>
+</body>
+
+<script>
+    function Convert(){
+        let text = document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML = text.toLowerCase();
+
+
+    }
+</script>
+</html>
